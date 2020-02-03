@@ -4,10 +4,10 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: app
+    container_name: vue-storybook
     tty: true
     ports:
-      - "8080:8080"
+      - "9000:9000"
     volumes:
       - /usr/src/node_modules
       - .:/usr/src

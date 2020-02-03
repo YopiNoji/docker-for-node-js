@@ -9,5 +9,4 @@ RUN \
 RUN apk add git
 
 WORKDIR /usr/src
-RUN npm install && npm cache clean --force
 CMD ["/bin/sh"]
