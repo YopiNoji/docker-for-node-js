@@ -12,11 +12,11 @@ $ docker-compose exec app sh
 
 ## Example: Create React app
 
-```sh
-/usr/src # yarn -v
+```bash
+bash-5.0# yarn -v
 1.21.1
 
-/usr/src # npx create-react-app my-app
-/usr/src # cd my-app
-/usr/src # yarn start
+bash-5.0# npx create-react-app my-app
+bash-5.0# cd my-app
+bash-5.0# yarn start
 ```
